@@ -387,7 +387,11 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <p>aljabar matriks</p>
+  <p>aljabar matriks
+.Tidak mengerjakan tidak boleh masuk
+.berikan penjelasan apa itu matrix
+.operasi matrix (penjumlahan ,perkalian, transpose matrix)
+.membuat program untuk mengalikan matriks A dan B</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -455,6 +459,30 @@ document.write(`
 </div>
 </div>
 </div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span> <span class="p">([[</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">9</span><span class="p">],[</span><span class="mi">3</span><span class="p">,</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span><span class="mi">6</span><span class="p">],[</span><span class="mi">9</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">1</span><span class="p">]])</span>
+<span class="n">B</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span> <span class="p">([[</span><span class="mi">1</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">5</span><span class="p">],[</span><span class="mi">2</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">]])</span>
+<span class="n">C</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span> <span class="p">([[</span><span class="mi">3</span><span class="p">,</span><span class="mi">2</span><span class="p">],[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">],[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">]])</span>
+<span class="n">D</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span> <span class="p">([[</span><span class="mi">5</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">],[</span><span class="mi">3</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">9</span><span class="p">]])</span>
+<span class="n">E</span> <span class="o">=</span> <span class="n">A</span><span class="o">+</span><span class="n">B</span>
+<span class="n">F</span> <span class="o">=</span> <span class="mi">2</span><span class="o">*</span><span class="n">A</span>
+<span class="n">G</span> <span class="o">=</span> <span class="n">A</span><span class="nd">@c</span>
+<span class="n">H</span> <span class="o">=</span> <span class="n">B</span><span class="nd">@C</span>
+<span class="o">//</span> <span class="n">A</span><span class="p">(</span><span class="n">BC</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="n">AB</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">  File</span><span class="nn"> &quot;&lt;ipython-input-6-9aa4c1022baa&gt;&quot;</span><span class="gt">, line </span><span class="mi">9</span>
+    <span class="o">//</span> <span class="n">A</span><span class="p">(</span><span class="n">BC</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="n">AB</span><span class="p">)</span>
+    <span class="o">^</span>
+<span class="ne">SyntaxError</span>: invalid syntax
+</pre></div>
+</div>
+</div>
+</div>
+<p>g.shape untuk mengetahui matrix</p>
 
     <script type="text/x-thebe-config">
     {
